@@ -17,8 +17,10 @@ def index(request):
     })
 
 def entry(request, name):
-    md_file = util.get_entry(f"entries/{name}.md")
+    md_file = util.get_entry(name) #this is setting md_file to the
+                                    #of the markdown file itself
+                                    #Need to save this string as a file instead
     markdown.markdownFromFile(input=md_file,
-        output='encyclopedia/templates/encyclopedia/converted.html',
+        output='encyclopedia/converted.html',
         encoding='utf8')
     return render(request, "encyclopedia/converted.html" )
