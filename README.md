@@ -1,6 +1,6 @@
 ### CS50project1
 
-#About the project
+## About the project
 
 This is a project done as part of the CS50x online course. It uses Python and Django to set the foundations for the basics of a Wikipedia entry page.
 The features of this page (as can be seen by downloading and executing the code) can be seen in the following youtube video made by me. Each feaure is 
