@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{def_input}}
+
+{% endblock %}
+
+{% block body %}
+
+<a href="{% url 'edit' def_input %}">Edit Entry</a>
+
+{{md_content|safe}}
+
+
+{% endblock %}
