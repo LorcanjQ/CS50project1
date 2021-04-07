@@ -1,4 +1,4 @@
-### "Wikipedia" Style Website for practice in the Python Django Framework 
+# "Wikipedia" Style Website for practice in the Python Django Framework 
 
 ## About the project
 
