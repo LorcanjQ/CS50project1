@@ -1,6 +1,6 @@
-# "Wikipedia" Style Website for practice in the Python Django Framework 
+## "Wikipedia" Style Website for practice in the Python-Django Framework 
 
-## About the project
+### About the project
 
 This project uses Python by means of the Django framework to set the foundations for the basics of a Wikipedia-style webpage.
 The features of this page (as can be seen by downloading and executing the code) can be seen in the following youtube video made by me. Each feaure is 
